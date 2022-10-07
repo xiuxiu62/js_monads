@@ -1,5 +1,5 @@
-const Ok = (value) => new Result_(true, value);
-const Err = (error) => new Result_(false, error);
+export const Ok = (value) => new Result_(true, value);
+export const Err = (error) => new Result_(false, error);
 
 class Result_ {
   constructor(ok, value) {

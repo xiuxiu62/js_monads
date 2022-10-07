@@ -1,5 +1,5 @@
-const Some = (value) => new Option_(true, value);
-const None = (error) => new Option_(false, null);
+export const Some = (value) => new Option_(true, value);
+export const None = (error) => new Option_(false, null);
 
 class Option_ {
   constructor(some, value) {
